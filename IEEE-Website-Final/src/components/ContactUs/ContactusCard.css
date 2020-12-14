@@ -1,0 +1,105 @@
+
+.c {
+    max-width: 100%;
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .back {
+    background-image: url(../../img/ContactUs/isha.PNG);
+  }
+  
+  .front {
+    background-image: url(../../img/ContactUs/IshaEmail.PNG);
+  }
+  
+  .OuterCard{
+    padding: 65px;
+    margin-top: 50px;
+    margin-left: -60px;
+    max-width: 100%;
+    max-height: 10vh;
+    border-radius: 10px;
+    width:100%
+  }
+
+  .AinalFront,
+  .AinalBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .AinalBack{
+    background-image: url(../../img/ContactUs/AinalSir3.PNG);
+  }
+
+  .AinalFront {
+    background-image: url(../../img/ContactUs/AinalEmail.PNG);
+  }
+
+  .VinodFront,
+  .VinodBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .VinodBack{
+    background-image: url(../../img/ContactUs/VinodSir.PNG);
+  }
+
+  .VinodFront {
+    background-image: url(../../img/ContactUs/VinodEmail.PNG);
+  }
+
+  .NavinFront,
+  .NavinBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .NavinBack{
+    background-image: url(../../img/ContactUs/Navin.PNG);
+  }
+
+  .NavinFront {
+    background-image: url(../../img/ContactUs/NavinEmail.PNG);
+  }
+
+  .NiraliFront,
+  .NiraliBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .NiraliBack{
+    background-image: url(../../img/ContactUs/Nirali.PNG);
+  }
+
+  .NiraliFront {
+    background-image: url(../../img/ContactUs/NiraliEmail.PNG);
+  }
+
+  .NishantFront,
+  .NishantBack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .NishantBack{
+    background-image: url(../../img/ContactUs/Nishant.PNG);
+  }
+
+  .NishantFront {
+    background-image: url(../../img/ContactUs/NishantEmail.PNG);
+  }
