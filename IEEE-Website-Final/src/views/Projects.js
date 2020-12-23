@@ -33,7 +33,6 @@ const Projects = () => {
                         {
                             (compeleted || ongoing) && <ProjectsMain compeleted={compeleted} ongoing={ongoing}/>
                         }
-                        
                     </Grid>
                     <Grid item xs={12}  className="nav">
                         <SimpleBottomNavigation />

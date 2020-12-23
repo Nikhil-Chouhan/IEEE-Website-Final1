@@ -56,7 +56,8 @@ function EventsMain({ compeleted, ongoing }) {
                         </div>
                         <p className="text__background">Completed</p>
                     </div>
-                    <div className="flex__item flex__item--right Events_Right Projects_Right projects_pro"><PastEvents completed={compeleted} /></div>
+                    <div className="flex__item flex__item--right Events_Right Projects_Right projects_pro">
+                        <PastEvents completed={compeleted} /></div>
                 </div>
             </div>
 

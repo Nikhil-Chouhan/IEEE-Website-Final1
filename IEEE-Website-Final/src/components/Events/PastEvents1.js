@@ -1,19 +1,20 @@
 import Booklet from "booklet-react-component";
-// import "./booklet.css";
 import React, { useState, useEffect,  Component } from "react";
 import event1 from '../../img/Events/AI&MLmain.jpg'
 import event2 from '../../img/Events/AI&MLday1.jpg'
 import event3 from '../../img/Events/AI&MLday2.jpg'
 import event4 from '../../img/Events/AI&MLday3.jpg'
+import completed from '../../views/Events.js'
 
-class UsingBookletComponent extends Component {
+class UsingBookletComponent extends Component  {
+  
   constructor() {
     super();
     this.state = {
       index: 1,
       flipPageIndex: 1
     };
-  }
+ }
   genNextPages = () => {
     this.setState({
       index: this.state.index + 2
@@ -36,7 +37,7 @@ class UsingBookletComponent extends Component {
   };
 
   render() {
-
+        
     return (
       <>
       <div id="eve" className="pokemon__img whole">

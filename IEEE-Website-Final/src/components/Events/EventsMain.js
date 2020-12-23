@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import PastEvents from './PastEvents';
 import UpComingEvents from './UpComingEvents';
 import Booklet from './Booklet';
+import PastEvents1 from './PastEvents1';
 
-function EventsMain() {
+function EventsMain( compeleted, ongoing ) {
+
     useEffect(()=>{
         window.$('.slide-nav').on('click', function(e) {
             e.preventDefault();
@@ -42,7 +44,8 @@ function EventsMain() {
                         <p className="text__background">Upcoming</p>
                     </div>
                     <div className="flex__item flex__item--right Events_Right">
-                        <Booklet />
+                        <PastEvents1  />
+                         
                     </div>
                     {/* <img className="pokemon__img" src="https://lh3.googleusercontent.com/proxy/TWeJIT5--zilVt58aWjypiRSIMhV3g3OJ5cNwd4PyAB0rgqLNbkyY9V0KVnnvDgSa9FxulY69Fr_tMNzfH2FzLZ3NIjNayLAfGICK6DshRxXBKZvXcs_0Pk" /> */}
                     {/* <UpComingEvents /> */}
@@ -59,20 +62,21 @@ function EventsMain() {
                         </div>
                         <p className="text__background">Past</p>
                     </div>
-                    <div className="flex__item flex__item--right Events_Right"><Booklet /></div>
+                    <div className="flex__item flex__item--right Events_Right">
+                        <PastEvents1  />
+                    </div>
                     {/* <img className="pokemon__img" src="https://s4.postimg.org/sa9dl4825/pilup.png" /> */}
                     {/* <PastEvents /> */}
-                    
-
                 </div>
             </div>
 
             <div className="slider__navi">
-                <a href="#" className="slide-nav active" data-slide="1">pikachu</a>
-                <a href="#" className="slide-nav" data-slide="2">piplup</a>
+                <a href="#" className="slide-nav active" data-slide="1">Upcoming</a>
+                <a href="#" className="slide-nav" data-slide="2">Past</a>
             </div>
         </>
     )
+
 }
 
 export default EventsMain
